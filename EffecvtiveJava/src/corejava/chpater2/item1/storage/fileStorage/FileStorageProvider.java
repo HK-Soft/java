@@ -6,8 +6,7 @@ import corejava.chpater2.item1.storage.StorageService;
 public class FileStorageProvider implements StorageProvider {
 
 	public StorageService newStorage() {
-		// TODO Auto-generated method stub
-		return null;
+		return new FileStorage();
 	}
 
 }
