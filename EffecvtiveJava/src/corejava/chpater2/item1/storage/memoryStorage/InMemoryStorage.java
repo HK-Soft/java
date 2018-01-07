@@ -5,15 +5,15 @@ import java.util.Map;
 
 import corejava.chpater2.item1.storage.StorageService;
 
-public class InMemoryStorage implements StorageService {
+public class InMemoryStorage<T> implements StorageService<T> {
 	
-	private Map<String, Object> repository = new HashMap<>();
+	private Map<String, T> repository = new HashMap<>();
 	
-	public void put(String key, Object value) {
+	public void put(String key, T value) {
 		repository.put(key, value);
 	}
 
-	public Object get(String key) {
+	public T get(String key) {
 		return repository.get(key);
 	}
 

@@ -18,5 +18,7 @@ public class Item1 {
 		//
 		Services.newInstance("Hello").talk();
 		Services.newInstance().talk();
+		
+
 	}
 }
