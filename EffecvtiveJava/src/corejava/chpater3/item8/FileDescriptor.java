@@ -3,7 +3,7 @@ package corejava.chpater3.item8;
 import java.time.LocalDate;
 import java.util.Arrays;
 
-//Part of program that search for duplicated files in a given folder
+//Part of a program that search for duplicated files in a given directory
 //This object can'nt be allowed to change after creation
 //AN IMMUTABLE OBJECT
 public class FileDescriptor implements Comparable<FileDescriptor> {
@@ -20,7 +20,7 @@ public class FileDescriptor implements Comparable<FileDescriptor> {
 		this.checksum = hecksumHash();
 	}
 
-	public static FileDescriptor describe(String fielURL) {
+	public static FileDescriptor describe(String fileURL) {
 		return new FileDescriptor("book.pdf", LocalDate.now(), LocalDate.now());
 	}
 
