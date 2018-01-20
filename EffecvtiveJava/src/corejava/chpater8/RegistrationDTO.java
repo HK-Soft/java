@@ -3,7 +3,7 @@ package corejava.chpater8;
 import corejava.chpater8.annotations.IsUnique;
 import corejava.chpater8.annotations.Password;
 
-//
+//Mock object
 public class RegistrationDTO {
 
 	@IsUnique(columnName = "username", tableName = "tb_users")

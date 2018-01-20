@@ -7,6 +7,15 @@ import corejava.chpater8.annotations.Password;
 import corejava.chpater8.annotations.ValidotorClass;
 import corejava.chpater8.annotations.validators.ValueValidator;
 
+/**
+ * 
+ * 
+ *
+ * the Goal is to create a unified and consistence way to validate data in
+ * object.
+ * 
+ * 
+ */
 public class UniversalValidator {
 
 	@SuppressWarnings("rawtypes")

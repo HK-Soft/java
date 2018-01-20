@@ -9,6 +9,11 @@ import java.lang.annotation.Target;
 
 import corejava.chpater8.annotations.validators.PasswordValidotor;
 
+/**
+ * 
+ * List of constraint on the password
+ *
+ */
 @Retention(RUNTIME)
 @Target({ FIELD, PARAMETER })
 @ValidotorClass(validator = PasswordValidotor.class)

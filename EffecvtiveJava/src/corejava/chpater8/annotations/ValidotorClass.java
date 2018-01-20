@@ -8,6 +8,11 @@ import java.lang.annotation.Target;
 
 import corejava.chpater8.annotations.validators.ValueValidator;
 
+/**
+ * 
+ * the class name of the implementation used to execute the validation
+ *
+ */
 @Retention(RUNTIME)
 @Target({ ElementType.TYPE })
 public @interface ValidotorClass {
@@ -15,5 +20,4 @@ public @interface ValidotorClass {
 	@SuppressWarnings("rawtypes")
 	Class<? extends ValueValidator> validator();
 
-	
 }

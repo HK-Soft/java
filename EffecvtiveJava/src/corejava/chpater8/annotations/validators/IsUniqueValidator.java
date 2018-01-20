@@ -2,6 +2,7 @@ package corejava.chpater8.annotations.validators;
 
 import corejava.chpater8.annotations.IsUnique;
 
+//Implementing the isUnique validation constraintes
 public class IsUniqueValidator implements ValueValidator<IsUnique, String> {
 
 	@Override

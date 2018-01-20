@@ -9,6 +9,11 @@ import java.lang.annotation.Target;
 
 import corejava.chpater8.annotations.validators.IsUniqueValidator;
 
+/**
+ * 
+ * test if the value is unique in a table
+ *
+ */
 @Retention(RUNTIME)
 @Target({ FIELD, PARAMETER })
 @ValidotorClass(validator = IsUniqueValidator.class)

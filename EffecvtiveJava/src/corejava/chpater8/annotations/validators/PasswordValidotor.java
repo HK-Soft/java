@@ -2,6 +2,7 @@ package corejava.chpater8.annotations.validators;
 
 import corejava.chpater8.annotations.Password;
 
+//Implementing the Password validation constraints
 public class PasswordValidotor implements ValueValidator<Password, String> {
 
 	@Override
